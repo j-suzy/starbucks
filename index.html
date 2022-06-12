@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>homepage</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+   <!-- GSAP & ScrollToPlugin -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js" integrity="sha512-lZACdYsy0W98dOcn+QRNHDxFuhm62lfs8qK5+wPp7X358CN3f+ml49HpnwzTiXFzETs4++fADePDI+L2zwlm7Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script defer src="./js/js.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <div class="header">
+      <a href="/" class="logo"><img src="./img/logo.png" alt=""></a>
+      <div class="inner">
+        <div class="sub-menu">
+          <ul class="menu">
+            <li><a href="javascript:void(0)">로그인</a></li>
+            <li><a href="javascript:void(0)">회원가입</a></li>
+            <li><a href="javascript:void(0)">마이페이지</a></li>
+            <li><a href="javascript:void(0)">찾아보기</a></li>
+          </ul>
+          <div class="search">
+            <input type="/">
+            <div class="material-icons">search</div>
+          </div>
+        </div>
+      </div>
+    
+    
+    <ul class="main-menu">
+      <li class="item">
+        <div class="item__name">관광명소</div>
+        <div class="item__contents">
+          <div class="contents__menu">
+            <ul class="inner1 menu1">
+              <li>명소/관광지</li>
+              <li>국가등록문화재</li>
+              <li>영주 관광100선</li>
+              <li>명산/계곡</li>
+              <li>전통사찰</li>
+              <li>유적</li>
+              <li>박물관/체험관</li>
+              <li>온천/리조트</li>
+              <li>드라마 촬영지</li>
+              <li>국립산림치유원</li>
+              <li>오토캠핑장</li>
+              <li>테마파크</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__name">문화유산</div>
+        <div class="item__contents">
+          <div class="contents__menu">
+            <ul class="inner1 menu2">
+              <li>문화유산현황</li>
+              <li>국가지정문화재</li>
+              <li>등록문화재</li>
+              <li>경상북도지정문화재</li>
+              <li>문화재자료</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__name">테마여행</div>
+        <div class="item__contents">
+          <div class="contents__menu">
+            <ul class="inner1 menu3">
+              <li>추천여행</li>
+              <li>체험여행</li>
+              <li>견학</li>
+              <li>영주 시티투어</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__name">축제문화행사</div>
+        <div class="item__contents">
+          <div class="contents__menu">
+            <ul class="inner1 menu4">
+              <li>세계풍기인삼엑스포</li>
+              <li>한국선비문화축제</li>
+              <li>소백산철쭉제</li>
+              <li>풍기인삼축제</li>
+              <li>영주사과축제</li>
+              <li>문화예술제</li>
+              <li>문화공연소식</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__name">여행정보</div>
+        <div class="item__contents">
+          <div class="contents__menu">
+            <ul class="inner1 menu5">
+              <li>
+                <h4>숙박/음식점</h4>
+                <ul>
+                  <li>관광안내</li>
+                  <li>교통안내</li>
+                  <li>영주특산품안내</li>
+                  <li>영주관광지도</li>
+                  <li>문화관광해설</li>
+                  <li>영주관광택시</li>
+                  <li>관광안내책자</li>
+                  <li>여행인센티브</li>
+                  <li>VR투어</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__name">광장</div>
+        <div class="item__contents">
+          <div class="contents__menu">
+            <ul class="inner1 menu6">
+              <li>공지사항</li>
+              <li>여행후기</li>
+              <li>추천합니다</li>
+              <li>여행갤러리</li>
+              <li>관광상담</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </li>
+    </ul>
+<!--    header end   -->
+  </div>
+
+  <div class="visual">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/부석사.jpg" alt="부석사">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/다운로드1234.jpg" alt="무섬마을">
+            </div>
+            <!-- <div class="swiper-slide">
+                <img src="./img/부석사2.jpg" alt="부석사2">
+            </div> -->
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-prev">
+        <div class="material-icons">arrow_back_ios</div>
+    </div>
+    <div class="swiper-next">
+        <div class="material-icons">arrow_forward_ios</div>
+    </div>
+    <div class="text">삶의 쉼표를 찍는<br>힐링 여행</div>
+</div>
+
+<!-- visual end -->
+</body>
+</html>
